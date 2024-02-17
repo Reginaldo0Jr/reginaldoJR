@@ -48,7 +48,7 @@ function list(data) {
  const searchInput = document.getElementById('searchInput');
 
  searchInput.addEventListener('keyup', function name(params) {
-  const searchTerm = searchInput.ariaValueMax.toLowerCase();
+  const searchTerm = searchInput.value.toLowerCase();
   list(searchTerm);
  });
 
